@@ -7,8 +7,7 @@
 
 # Распознавание текста
 
-Вот ссылка на соревнование [Fusion Brain Challenge](https://dsworks.ru/champs/fb5778a8-94e9-46de-8bad-aa2c83a755fb).
-Вот еще одна [ссылка](https://drive.google.com/file/d/1Wu1mqufqWQ40VI9REJEq27f19bp-wae7/view?usp=sharing) на гугл диск, окткуда можно скачать этот датасет. Структура архива следующая:
+Вот ссылка на соревнование [Fusion Brain Challenge](https://dsworks.ru/champs/fb5778a8-94e9-46de-8bad-aa2c83a755fb), `Данные - HTR train`. Структура архива следующая:
 * ```images``` - папка с изображениями в формате png
 * ```train_labels.json``` - файл с правильным ответами. Это словарь, в котором ключом является названием
 соответствующего изображения из папки ```images```, а значением - текст на данном изображении.
