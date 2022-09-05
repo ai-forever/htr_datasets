@@ -1,26 +1,6 @@
 # DigitalPeter
-Data and description for the Digital Peter dataset.
 
-## Data
-* Data [link](https://drive.google.com/file/d/1pl-NVBsjD7lgMYdTx6eFVU1s7rZfeeLY/view?usp=sharing). It consists of images and txt files for cutted text lines.
-
-* Full documents [link](https://drive.google.com/file/d/1CcJpmE0yIJ2IY1PPKyil8ZrOuCfI1Jpv/view?usp=sharing). It consists of images of full documents. You can use it to train models that cut the text lines from initial image.
-
-* Annotations [link](https://drive.google.com/file/d/1XxUMb4_NoNPPKioa4RqDLmSQ0Esu_Fbt/view?usp=sharing). It is annotation for the full documents dataset (previous link). Annotations include segmentation masks for text lines.
-
-Data [link](https://drive.google.com/file/d/1pl-NVBsjD7lgMYdTx6eFVU1s7rZfeeLY/view?usp=sharing) has the following structure.
-
-```
---- images/
---- mapper.csv/
---- words/
-```
-Images folder contains images of lines. Words folder contains txt files of text corresponding to images. You can map them by file name. For example image ```0_1_0.jpg``` has text translation in file ```0_1_0.txt```.
-
-```mapper.csv``` has five columns - [new_name, old_name, train, public,private]. Data [link](https://drive.google.com/file/d/1pl-NVBsjD7lgMYdTx6eFVU1s7rZfeeLY/view?usp=sharing) has filenames from column "new_name". But for competition "DigitalPeter" (described below) we used different filenames. They are presented in column "old_name". So this file maps new_names to old_names from competition.
-
-FINALLY, if you want to use our dataset for scientific researches, you can forget about "DigitalPeter" competition and don't look at column "old_name" in mapper.csv. Use only actual names from columns "new_name" and columns [train,public,private] for train/val/test splits.
-
+[Link](https://huggingface.co/datasets/sberbank-ai/Peter) to HuggingFace repo of the Peter dataset (there you can download and read about the dataset).
 
 ## Description
 
